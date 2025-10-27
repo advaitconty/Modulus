@@ -334,7 +334,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -349,7 +349,7 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
 				(at 0 19.685 0)
 				(effects
 					(font
@@ -375,7 +375,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -402,7 +402,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -491,8 +491,30 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -693,7 +715,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at -7.62 -22.86 90)
 					(length 5.08)
@@ -963,6 +985,42 @@
 						)
 					)
 					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3815,256 +3873,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Diode_Schottky_AKL:SS34"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SS34"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_Diode_SMD_AKL:D_SMC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tme.eu/Document/4534c3d1273464918563ce78bdeb2ece/SS34-E3-57T.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMC Schottky diode, 40V, 3A, Alternate KiCAD Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky SS34"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SS34_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -0.762) (xy 1.905 -1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 0.635 1.27) (xy 0.635 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SS34_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy -0.381 1.397) (xy 0 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 0) (xy 2.159 0.381) (xy 1.778 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SS34_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SS34_1_2"
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_Elektuur:C"
 			(pin_numbers
 				(hide yes)
@@ -4271,345 +4079,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCM_Elektuur:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 2.54 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "L"
-				(at 2.54 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "coil/winding/inductor/choke/reactor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Indicator" "●"
-				(at -0.127 2.54 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "A"
-				(at -1.27 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L coil winding inductor choke reactor dot instantaneous voltage polarity indicator magnetic core transformer"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_1_0"
-				(arc
-					(start 0 3.302)
-					(mid 0.6604 2.5146)
-					(end 0 1.7272)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.6256)
-					(mid 0.6604 0.8382)
-					(end 0 0.0508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.0508)
-					(mid 0.6604 -0.8382)
-					(end 0 -1.6256)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.7272)
-					(mid 0.6604 -2.5146)
-					(end 0 -3.302)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.4036)
-					(mid 0.762 2.5146)
-					(end 0 1.6256)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.7272)
-					(mid 0.762 0.8382)
-					(end 0 -0.0508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.0508)
-					(mid 0.762 -0.8382)
-					(end 0 -1.7272)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.6256)
-					(mid 0.762 -2.5146)
-					(end 0 -3.4036)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.5052) (xy 0 3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.7272) (xy 0 1.6256)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.0508) (xy 0 -0.0508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.6256) (xy 0 -1.7272)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.302) (xy 0 -3.5052)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 1.5748)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.5748)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "L_1_2"
-				(rectangle
-					(start 1.524 3.3782)
-					(end 1.9812 -3.3782)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "L_1_3"
-				(rectangle
-					(start 1.524 3.0988)
-					(end 1.9812 1.9304)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.524 1.4224)
-					(end 1.9812 0.254)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.524 -0.254)
-					(end 1.9812 -1.4224)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.524 -1.9304)
-					(end 1.9812 -3.0988)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -5028,201 +4497,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Regulator_Switching:MT3608"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MT3608"
-				(at -3.81 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
-				(at -6.35 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Step-Up Boost DC-DC Regulator Adjustable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT*23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MT3608_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MT3608_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6597,16 +5871,6 @@
 		)
 		(uuid "30337c72-8ec6-4419-8223-7dc277d0acb3")
 	)
-	(text "Transmits 12V instead of 5v or 3v3"
-		(exclude_from_sim no)
-		(at 265.176 159.512 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4e7be865-fb13-4491-9d57-75491cba279a")
-	)
 	(text "Modular XLR connection circuit"
 		(exclude_from_sim no)
 		(at 262.89 161.798 0)
@@ -6678,12 +5942,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "065fe24b-fa6a-45e0-b741-4a97435c5fed")
-	)
-	(junction
-		(at 293.37 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06666ec0-c606-4470-8ab3-6db7c49b1fa2")
 	)
 	(junction
 		(at 30.48 167.64)
@@ -6810,12 +6068,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2175d3c8-c349-4228-9725-f9bf4b2415db")
-	)
-	(junction
-		(at 270.51 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2496d4e7-13ef-4065-9581-f8109bdff68b")
 	)
 	(junction
 		(at 158.75 200.66)
@@ -7046,12 +6298,6 @@
 		(uuid "4e6e8160-90c3-46c4-a828-6fca7ad95438")
 	)
 	(junction
-		(at 312.42 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f869f2f-795c-4fbe-b0a3-2b1eb7773516")
-	)
-	(junction
 		(at 73.66 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7134,12 +6380,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b30b803-2693-46a2-8413-4f7c8d866ec2")
-	)
-	(junction
-		(at 285.75 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b6035f9-575b-4dcb-bf22-754578502f1a")
 	)
 	(junction
 		(at 453.39 123.19)
@@ -7338,12 +6578,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ce378c7-3ea4-4bbb-a3d3-f946a351cc43")
-	)
-	(junction
-		(at 278.13 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cf3d069-1be9-4f32-b305-a6024394d8d1")
 	)
 	(junction
 		(at 43.18 167.64)
@@ -7568,22 +6802,10 @@
 		(uuid "ba97daca-64af-4e0b-a71c-fdbf2627a51a")
 	)
 	(junction
-		(at 304.8 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "baf57829-c8ad-45ad-9b6a-b6ed48362e72")
-	)
-	(junction
 		(at 312.42 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc25b61c-31aa-48d4-a8c0-66915d626305")
-	)
-	(junction
-		(at 334.01 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be3e65e2-122f-4bed-96ce-7787782b6f6b")
 	)
 	(junction
 		(at 274.32 53.34)
@@ -7802,12 +7024,6 @@
 		(uuid "eac55393-5762-4c6d-9b69-04b9d0d92ade")
 	)
 	(junction
-		(at 321.31 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb207f3e-6c19-4d0d-b8f1-521c5938d71c")
-	)
-	(junction
 		(at 60.96 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7916,6 +7132,10 @@
 		(uuid "fdacb3db-7974-435b-a8f8-4fb6bb93fa38")
 	)
 	(no_connect
+		(at 383.54 154.94)
+		(uuid "02eb9872-4dd1-4fdc-8f4a-465cf69f728e")
+	)
+	(no_connect
 		(at 473.71 153.67)
 		(uuid "104e93cd-0269-4264-bf8a-0412cc4f1e20")
 	)
@@ -7924,18 +7144,28 @@
 		(uuid "3e68c3c4-fdd6-45c8-99ff-7894f0230de4")
 	)
 	(no_connect
+		(at 161.29 33.02)
+		(uuid "74bb64b7-c4f1-4ef0-8ce8-ee89c70babc7")
+	)
+	(no_connect
+		(at 229.87 33.02)
+		(uuid "8bd09c8b-3c2e-484d-b964-712027e33161")
+	)
+	(no_connect
+		(at 383.54 152.4)
+		(uuid "dd3252ec-6e3b-45d6-b5df-5d503ec1f029")
+	)
+	(no_connect
+		(at 163.83 33.02)
+		(uuid "ed8adc5c-44e7-4f6b-97c1-7b0ccfba02a9")
+	)
+	(no_connect
 		(at 473.71 146.05)
 		(uuid "fc91fc1c-76b6-4bd5-9210-ac3ec0818753")
 	)
-	(wire
-		(pts
-			(xy 334.01 140.97) (xy 334.01 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "008fd2a0-a4fa-421f-b5ad-cba99a42fb14")
+	(no_connect
+		(at 153.67 83.82)
+		(uuid "ff9810fa-a964-4503-999a-fd3cbd7b336d")
 	)
 	(wire
 		(pts
@@ -8079,26 +7309,6 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 142.24) (xy 304.8 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10037fa8-bd65-4593-a1df-27b5c09f3156")
-	)
-	(wire
-		(pts
-			(xy 312.42 146.05) (xy 312.42 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "101c74c8-a5ca-47bf-ae53-ecca05a44ba7")
-	)
-	(wire
-		(pts
 			(xy 158.75 200.66) (xy 171.45 200.66)
 		)
 		(stroke
@@ -8176,16 +7386,6 @@
 			(type default)
 		)
 		(uuid "17e45db5-6ae8-4135-8bb1-afb44f5bc0d6")
-	)
-	(wire
-		(pts
-			(xy 312.42 151.13) (xy 321.31 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "187b6da4-4baf-4196-a2fc-197b433adcb8")
 	)
 	(wire
 		(pts
@@ -8289,16 +7489,6 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 142.24) (xy 321.31 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20dfcbc5-b2ef-42fd-ba5b-0a3565a9c835")
-	)
-	(wire
-		(pts
 			(xy 55.88 147.32) (xy 55.88 167.64)
 		)
 		(stroke
@@ -8326,16 +7516,6 @@
 			(type default)
 		)
 		(uuid "249240e6-9fc0-478d-84ed-d74e6dd47fa6")
-	)
-	(wire
-		(pts
-			(xy 483.87 158.75) (xy 481.33 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25a0be95-407e-4cfb-87af-da0bb21ac345")
 	)
 	(wire
 		(pts
@@ -8376,16 +7556,6 @@
 			(type default)
 		)
 		(uuid "29a3dff3-cdc4-481f-9cc8-b0447a5dbcbf")
-	)
-	(wire
-		(pts
-			(xy 290.83 130.81) (xy 293.37 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29e01dca-ae32-4c69-bc20-5c1a4f6b4005")
 	)
 	(wire
 		(pts
@@ -8439,7 +7609,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 172.72) (xy 251.46 175.26)
+			(xy 260.35 172.72) (xy 260.35 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8536,16 +7706,6 @@
 			(type default)
 		)
 		(uuid "31f2671e-f4df-4360-bc0a-91d160aeb9bf")
-	)
-	(wire
-		(pts
-			(xy 300.99 140.97) (xy 334.01 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32063bc4-f80f-4824-9829-c5f1883b0714")
 	)
 	(wire
 		(pts
@@ -8839,16 +7999,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 148.59) (xy 270.51 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "463837b9-2b03-4a23-9373-6c331b48a3c1")
-	)
-	(wire
-		(pts
 			(xy 278.13 80.01) (xy 290.83 80.01)
 		)
 		(stroke
@@ -8886,16 +8036,6 @@
 			(type default)
 		)
 		(uuid "4b3b96fa-e05a-4dbe-92dd-f340c22887cf")
-	)
-	(wire
-		(pts
-			(xy 270.51 140.97) (xy 278.13 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c0fb10e-5fe4-455e-82c1-9fdc67d635ba")
 	)
 	(wire
 		(pts
@@ -9259,16 +8399,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 140.97) (xy 334.01 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b20ad14-0c15-4aca-a55c-c1ff4102f210")
-	)
-	(wire
-		(pts
 			(xy 115.57 63.5) (xy 115.57 64.77)
 		)
 		(stroke
@@ -9336,16 +8466,6 @@
 			(type default)
 		)
 		(uuid "7102a90d-6c53-4f70-9216-d380ab1b7a38")
-	)
-	(wire
-		(pts
-			(xy 278.13 130.81) (xy 278.13 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7190a7d8-39c6-4cf0-8add-cc777c501c32")
 	)
 	(wire
 		(pts
@@ -9469,7 +8589,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 172.72) (xy 251.46 172.72)
+			(xy 270.51 172.72) (xy 260.35 172.72)
 		)
 		(stroke
 			(width 0)
@@ -9659,6 +8779,16 @@
 	)
 	(wire
 		(pts
+			(xy 488.95 170.18) (xy 488.95 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a027c43-0fde-43ff-bcd0-92ea879e592a")
+	)
+	(wire
+		(pts
 			(xy 153.67 187.96) (xy 153.67 208.28)
 		)
 		(stroke
@@ -9829,17 +8959,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 151.13) (xy 326.39 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "982a90c0-323c-4695-aacf-773678277f2d")
-	)
-	(wire
-		(pts
-			(xy 256.54 175.26) (xy 261.62 175.26)
+			(xy 265.43 175.26) (xy 270.51 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9866,6 +8986,16 @@
 			(type default)
 		)
 		(uuid "98b40cd2-083c-4bd4-8334-4638baf0496f")
+	)
+	(wire
+		(pts
+			(xy 261.62 167.64) (xy 262.89 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9961c666-73f4-4f1c-adbd-76e3b8348f79")
 	)
 	(wire
 		(pts
@@ -9906,16 +9036,6 @@
 			(type default)
 		)
 		(uuid "9ae6022d-c516-4959-902e-c905826dbd9a")
-	)
-	(wire
-		(pts
-			(xy 293.37 130.81) (xy 293.37 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d28d90d-24f9-4baf-a91a-faacb12189d6")
 	)
 	(wire
 		(pts
@@ -10176,16 +9296,6 @@
 			(type default)
 		)
 		(uuid "b7a6f75a-0d76-4fd1-87bd-1bc93af02df0")
-	)
-	(wire
-		(pts
-			(xy 304.8 146.05) (xy 293.37 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9cfb850-592a-480b-bbbe-edcdd8b97964")
 	)
 	(wire
 		(pts
@@ -10519,16 +9629,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 120.65) (xy 314.96 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d740eb57-a072-49f9-8b3a-99cc1d49e7dc")
-	)
-	(wire
-		(pts
 			(xy 60.96 200.66) (xy 73.66 200.66)
 		)
 		(stroke
@@ -10579,23 +9679,13 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 151.13) (xy 312.42 151.13)
+			(xy 488.95 161.29) (xy 488.95 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbefbda7-4213-4137-b3a5-4c2187090c19")
-	)
-	(wire
-		(pts
-			(xy 280.67 130.81) (xy 278.13 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc2ad6b4-14d4-4c0a-ac33-8a0d6c66ebc0")
+		(uuid "dbe49ea0-9074-44b4-a1f5-e5c9f82207ca")
 	)
 	(wire
 		(pts
@@ -10676,6 +9766,16 @@
 			(type default)
 		)
 		(uuid "e2be04ab-b546-4c46-bb73-5b22c778e019")
+	)
+	(wire
+		(pts
+			(xy 261.62 170.18) (xy 262.89 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c7aeac-b9e7-4834-9406-680090b761ce")
 	)
 	(wire
 		(pts
@@ -10899,16 +9999,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 151.13) (xy 285.75 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1b58194-d3c9-4b0a-9744-f71f38693098")
-	)
-	(wire
-		(pts
 			(xy 109.22 220.98) (xy 121.92 220.98)
 		)
 		(stroke
@@ -10996,16 +10086,6 @@
 			(type default)
 		)
 		(uuid "f83d3db4-74ae-474f-9256-aa8a9cc76932")
-	)
-	(wire
-		(pts
-			(xy 304.8 142.24) (xy 304.8 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f93f5455-bc53-4785-8034-3beb1bd6390d")
 	)
 	(wire
 		(pts
@@ -11561,7 +10641,7 @@
 			)
 		)
 	)
-	(global_label "USB_D+"
+	(global_label "RP2040_USB_D+"
 		(shape input)
 		(at 222.25 25.4 90)
 		(fields_autoplaced yes)
@@ -11573,7 +10653,7 @@
 		)
 		(uuid "3e4bfdd3-a4d3-4c78-a4a0-1e43773073cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.25 14.7948 90)
+			(at 222.25 6.4492 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11755,28 +10835,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAPS_LOCK_LED"
-		(shape input)
-		(at 153.67 83.82 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5538c199-fa5c-4cea-a633-453a8e45dea3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.67 101.9242 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -12067,7 +11125,7 @@
 			)
 		)
 	)
-	(global_label "USB_D-"
+	(global_label "RP2040_USB_D-"
 		(shape input)
 		(at 219.71 25.4 90)
 		(fields_autoplaced yes)
@@ -12079,7 +11137,7 @@
 		)
 		(uuid "74b33c8c-1b4c-4019-9b38-b79103992a9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.71 14.7948 90)
+			(at 219.71 6.4492 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13228,7 +12286,7 @@
 				)
 			)
 		)
-		(property "Value" "660"
+		(property "Value" "220"
 			(at 477.52 160.782 0)
 			(effects
 				(font
@@ -13236,7 +12294,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
 			(at 478.409 163.068 0)
 			(effects
 				(font
@@ -13304,7 +12362,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 132.08 170.18 0)
 			(effects
 				(font
@@ -13374,7 +12432,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 147.32 196.85 0)
 			(effects
 				(font
@@ -13526,7 +12584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 58.42 232.41 0)
 			(effects
 				(font
@@ -13662,7 +12720,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 158.75 217.17 0)
 			(effects
 				(font
@@ -13747,7 +12805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 466.09 204.47 0)
 			(effects
 				(font
@@ -13820,7 +12878,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 461.3148 111.76 0)
 			(effects
 				(font
@@ -14084,7 +13142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 388.239 133.858 0)
 			(effects
 				(font
@@ -14154,7 +13212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 48.26 217.17 0)
 			(effects
 				(font
@@ -14239,7 +13297,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 484.1748 111.76 0)
 			(effects
 				(font
@@ -14309,7 +13367,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 109.22 176.53 0)
 			(effects
 				(font
@@ -14379,7 +13437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d0e1dc9-7148-4fa0-9c38-d78028150627")
-		(property "Reference" "D6"
+		(property "Reference" "F5D1"
 			(at 100.33 134.6199 90)
 			(effects
 				(font
@@ -14397,7 +13455,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 97.79 135.89 0)
 			(effects
 				(font
@@ -14451,7 +13509,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D6")
+					(reference "F5D1")
 					(unit 1)
 				)
 			)
@@ -14617,7 +13675,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 184.15 176.53 0)
 			(effects
 				(font
@@ -14687,7 +13745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11d0d175-d8b8-4d8d-a999-f88462649816")
-		(property "Reference" "S8"
+		(property "Reference" "F7"
 			(at 119.38 121.92 0)
 			(effects
 				(font
@@ -14703,7 +13761,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 119.38 129.54 0)
 			(effects
 				(font
@@ -14739,7 +13797,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S8")
+					(reference "F7")
 					(unit 1)
 				)
 			)
@@ -14755,7 +13813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1251f402-9109-495b-922b-bd5da04557dc")
-		(property "Reference" "D7"
+		(property "Reference" "F6D1"
 			(at 111.76 134.6199 90)
 			(effects
 				(font
@@ -14773,7 +13831,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 109.22 135.89 0)
 			(effects
 				(font
@@ -14827,7 +13885,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D7")
+					(reference "F6D1")
 					(unit 1)
 				)
 			)
@@ -14859,7 +13917,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NC3FAAH:NEUTRIK_NC3FAAH"
 			(at 262.89 120.65 0)
 			(effects
 				(font
@@ -14931,7 +13989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 124.46 58.42 0)
 			(effects
 				(font
@@ -15002,7 +14060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14a01140-f075-4643-8295-f98e06956ab2")
-		(property "Reference" "D13"
+		(property "Reference" "F12D1"
 			(at 186.69 134.6199 90)
 			(effects
 				(font
@@ -15020,7 +14078,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 184.15 135.89 0)
 			(effects
 				(font
@@ -15074,7 +14132,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D13")
+					(reference "F12D1")
 					(unit 1)
 				)
 			)
@@ -15108,7 +14166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 303.53 74.93 0)
 			(effects
 				(font
@@ -15197,7 +14255,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 60.96 217.17 0)
 			(effects
 				(font
@@ -15285,7 +14343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 274.32 48.26 0)
 			(effects
 				(font
@@ -15356,7 +14414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18277e0d-e1f1-48a2-ab49-6f1396191fd8")
-		(property "Reference" "S18"
+		(property "Reference" "3#1"
 			(at 71.12 142.24 0)
 			(effects
 				(font
@@ -15372,7 +14430,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 71.12 149.86 0)
 			(effects
 				(font
@@ -15408,7 +14466,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S18")
+					(reference "3#1")
 					(unit 1)
 				)
 			)
@@ -15490,7 +14548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bbf8998-0146-4b68-98f7-144ed678f66a")
-		(property "Reference" "S20"
+		(property "Reference" "5%1"
 			(at 95.25 142.24 0)
 			(effects
 				(font
@@ -15506,7 +14564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 95.25 149.86 0)
 			(effects
 				(font
@@ -15542,7 +14600,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S20")
+					(reference "5%1")
 					(unit 1)
 				)
 			)
@@ -15558,7 +14616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bc8fe00-eda3-456f-831a-4d8f4bbe9714")
-		(property "Reference" "D24"
+		(property "Reference" "9(D1"
 			(at 149.86 154.9399 90)
 			(effects
 				(font
@@ -15576,7 +14634,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 147.32 156.21 0)
 			(effects
 				(font
@@ -15630,7 +14688,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D24")
+					(reference "9(D1")
 					(unit 1)
 				)
 			)
@@ -15664,7 +14722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 341.63 74.93 0)
 			(effects
 				(font
@@ -15753,7 +14811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 290.83 74.93 0)
 			(effects
 				(font
@@ -15815,6 +14873,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 462.28 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e775239-659b-4ca1-b7b9-ba9eb0b7dacc")
+		(property "Reference" "#PWR045"
+			(at 462.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 462.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 462.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 462.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 462.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "765c2ed8-ffb2-42ab-b650-79e6213ff060")
+		)
+		(instances
+			(project ""
+				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SCOTOKEEBS:Placeholder_Keyswitch")
 		(at 119.38 170.18 0)
 		(unit 1)
@@ -15840,7 +14964,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 119.38 170.18 0)
 			(effects
 				(font
@@ -15883,88 +15007,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:MT3608")
-		(at 285.75 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2031b933-4be1-4030-bc96-25f9324a6c87")
-		(property "Reference" "U4"
-			(at 285.75 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MT3608"
-			(at 285.75 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 287.02 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
-			(at 279.4 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
-			(at 285.75 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "072d62e9-a959-473b-88f3-97bf703ac884")
-		)
-		(pin "5"
-			(uuid "6076e4df-2463-44eb-811c-1572ea9c8e32")
-		)
-		(pin "3"
-			(uuid "b8c5c60d-28a3-4913-9cbf-bd08750af196")
-		)
-		(pin "4"
-			(uuid "effacb5f-24e5-4cb5-adc2-0535b625eb18")
-		)
-		(pin "2"
-			(uuid "f695b49f-7976-4345-ab6c-cfa2acd80be6")
-		)
-		(pin "6"
-			(uuid "01c3ca8a-8eb4-45ed-bc92-83a90cb6d618")
-		)
-		(instances
-			(project ""
-				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_A")
 		(at 365.76 203.2 0)
 		(unit 1)
@@ -15989,7 +15031,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB1046-GF-0190-L-B-A_REVB4:GCT_USB1046-GF-0190-L-B-A_REVB4"
 			(at 369.57 204.47 0)
 			(effects
 				(font
@@ -16068,7 +15110,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 85.09 217.17 0)
 			(effects
 				(font
@@ -16156,7 +15198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 278.13 74.93 0)
 			(effects
 				(font
@@ -16245,7 +15287,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 73.66 238.76 0)
 			(effects
 				(font
@@ -16333,7 +15375,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 121.92 238.76 0)
 			(effects
 				(font
@@ -16421,7 +15463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 316.23 74.93 0)
 			(effects
 				(font
@@ -16510,7 +15552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 147.32 217.17 0)
 			(effects
 				(font
@@ -16580,7 +15622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "287035bc-8d1c-406c-a148-eaf44735fc24")
-		(property "Reference" "S28"
+		(property "Reference" "Backspace1"
 			(at 194.31 142.24 0)
 			(effects
 				(font
@@ -16596,7 +15638,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 194.31 149.86 0)
 			(effects
 				(font
@@ -16632,7 +15674,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S28")
+					(reference "Backspace1")
 					(unit 1)
 				)
 			)
@@ -16648,7 +15690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29633642-e2ed-4ef5-a05a-2d8948e928dd")
-		(property "Reference" "S24"
+		(property "Reference" "9(1"
 			(at 144.78 142.24 0)
 			(effects
 				(font
@@ -16664,7 +15706,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 144.78 149.86 0)
 			(effects
 				(font
@@ -16700,7 +15742,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S24")
+					(reference "9(1")
 					(unit 1)
 				)
 			)
@@ -16716,7 +15758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a20d40d-cbd8-45cd-ac30-550b056018b6")
-		(property "Reference" "D4"
+		(property "Reference" "F3D1"
 			(at 76.2 134.6199 90)
 			(effects
 				(font
@@ -16734,7 +15776,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 73.66 135.89 0)
 			(effects
 				(font
@@ -16788,7 +15830,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D4")
+					(reference "F3D1")
 					(unit 1)
 				)
 			)
@@ -16819,7 +15861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 215.392 30.099 0)
 			(effects
 				(font
@@ -16889,7 +15931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 35.56 238.76 0)
 			(effects
 				(font
@@ -16975,7 +16017,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 95.25 210.82 0)
 			(effects
 				(font
@@ -17109,7 +16151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 156.21 210.82 0)
 			(effects
 				(font
@@ -17179,7 +16221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 503.682 156.21 90)
 			(effects
 				(font
@@ -17246,7 +16288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 71.12 210.82 0)
 			(effects
 				(font
@@ -17316,7 +16358,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 121.92 217.17 0)
 			(effects
 				(font
@@ -17386,7 +16428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30a0fd33-51c0-4ebc-8172-8c023a3ffb9f")
-		(property "Reference" "D28"
+		(property "Reference" "BackspaceD1"
 			(at 199.39 154.9399 90)
 			(effects
 				(font
@@ -17404,7 +16446,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 196.85 156.21 0)
 			(effects
 				(font
@@ -17458,7 +16500,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D28")
+					(reference "BackspaceD1")
 					(unit 1)
 				)
 			)
@@ -17621,7 +16663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 457.2 209.8548 0)
 			(effects
 				(font
@@ -17690,7 +16732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 254 74.93 0)
 			(effects
 				(font
@@ -17776,7 +16818,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "USB1046-GF-0190-L-B-A_REVB4:GCT_USB1046-GF-0190-L-B-A_REVB4"
 			(at 417.83 204.47 0)
 			(effects
 				(font
@@ -17852,7 +16894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
 			(at 445.77 184.658 90)
 			(effects
 				(font
@@ -17921,7 +16963,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 147.32 238.76 0)
 			(effects
 				(font
@@ -18009,7 +17051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 171.45 238.76 0)
 			(effects
 				(font
@@ -18225,7 +17267,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 156.21 170.18 0)
 			(effects
 				(font
@@ -18359,7 +17401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 181.61 232.41 0)
 			(effects
 				(font
@@ -18429,7 +17471,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 134.62 196.85 0)
 			(effects
 				(font
@@ -18517,7 +17559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 262.89 48.26 0)
 			(effects
 				(font
@@ -18588,7 +17630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fdda468-d1f2-45b4-a5d8-4ca1cd587bed")
-		(property "Reference" "D27"
+		(property "Reference" "=+D1"
 			(at 186.69 154.9399 90)
 			(effects
 				(font
@@ -18606,7 +17648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 184.15 156.21 0)
 			(effects
 				(font
@@ -18660,7 +17702,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D27")
+					(reference "=+D1")
 					(unit 1)
 				)
 			)
@@ -18692,7 +17734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 144.78 232.41 0)
 			(effects
 				(font
@@ -18744,7 +17786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4104bbc0-f212-42c7-8604-0aeda0511795")
-		(property "Reference" "S5"
+		(property "Reference" "F4"
 			(at 82.55 121.92 0)
 			(effects
 				(font
@@ -18760,7 +17802,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 82.55 129.54 0)
 			(effects
 				(font
@@ -18796,7 +17838,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S5")
+					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -18812,7 +17854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41645ed5-9995-4e22-9d34-f77c2fdc9f79")
-		(property "Reference" "D21"
+		(property "Reference" "6^D1"
 			(at 111.76 154.9399 90)
 			(effects
 				(font
@@ -18830,7 +17872,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 109.22 156.21 0)
 			(effects
 				(font
@@ -18884,74 +17926,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 308.61 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "41d8345e-2d32-4733-9f3d-c34577e1985a")
-		(property "Reference" "R10"
-			(at 308.61 144.526 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "88.7K"
-			(at 308.61 143.002 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 309.499 150.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.118 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/4W Resistor"
-			(at 308.61 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ed0f99c8-ff95-430d-8216-1f74d39fa42a")
-		)
-		(pin "1"
-			(uuid "f1c0b012-3406-4476-a83e-5ef7f50db155")
-		)
-		(instances
-			(project "Modulus"
-				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "R10")
+					(reference "6^D1")
 					(unit 1)
 				)
 			)
@@ -18983,7 +17958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 106.68 170.18 0)
 			(effects
 				(font
@@ -19050,7 +18025,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 325.12 39.6748 0)
 			(effects
 				(font
@@ -19102,7 +18077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43a3507c-b633-404d-991a-ad9e25d84d16")
-		(property "Reference" "D16"
+		(property "Reference" "1!D1"
 			(at 50.8 154.9399 90)
 			(effects
 				(font
@@ -19120,7 +18095,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 48.26 156.21 0)
 			(effects
 				(font
@@ -19174,7 +18149,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D16")
+					(reference "1!D1")
 					(unit 1)
 				)
 			)
@@ -19182,7 +18157,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 483.87 158.75 0)
+		(at 488.95 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19190,7 +18165,7 @@
 		(dnp no)
 		(uuid "43c42257-dd90-4662-9d24-0f1da1caba3e")
 		(property "Reference" "#PWR08"
-			(at 483.87 165.1 0)
+			(at 488.95 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19199,7 +18174,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 486.918 159.004 0)
+			(at 491.998 170.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19207,7 +18182,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 483.87 158.75 0)
+			(at 488.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19216,7 +18191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 483.87 158.75 0)
+			(at 488.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19225,7 +18200,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 483.87 158.75 0)
+			(at 488.95 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19500,7 +18475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric"
+		(property "Footprint" "Green_LED:0603"
 			(at 327.66 168.91 0)
 			(effects
 				(font
@@ -19618,6 +18593,73 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 485.14 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4596fd9c-6929-4214-a71e-1eaca53734d1")
+		(property "Reference" "R2"
+			(at 485.14 162.052 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 485.14 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+			(at 486.029 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 485.648 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 485.14 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab85eee3-79fd-4ee1-b82b-bad2216d97b0")
+		)
+		(pin "1"
+			(uuid "13c92d8d-dceb-4b6a-aec5-30274a99af94")
+		)
+		(instances
+			(project "Modulus"
+				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SCOTOKEEBS:Placeholder_Keyswitch")
 		(at 119.38 232.41 0)
 		(unit 1)
@@ -19643,7 +18685,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.50u"
 			(at 119.38 232.41 0)
 			(effects
 				(font
@@ -19695,7 +18737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4731d772-46ef-46ca-a29b-0652d3422bf7")
-		(property "Reference" "S3"
+		(property "Reference" "F2"
 			(at 58.42 121.92 0)
 			(effects
 				(font
@@ -19711,7 +18753,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 58.42 129.54 0)
 			(effects
 				(font
@@ -19747,7 +18789,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S3")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -19781,7 +18823,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 158.75 196.85 0)
 			(effects
 				(font
@@ -19867,7 +18909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 33.02 68.58 0)
 			(effects
 				(font
@@ -19953,7 +18995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 217.932 30.099 0)
 			(effects
 				(font
@@ -20005,7 +19047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b42a0dd-bf9e-4b4f-9d0d-baf0b1fe2a1d")
-		(property "Reference" "S30"
+		(property "Reference" "Del2"
 			(at 205.74 121.92 0)
 			(effects
 				(font
@@ -20021,7 +19063,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 205.74 129.54 0)
 			(effects
 				(font
@@ -20057,7 +19099,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S30")
+					(reference "Del2")
 					(unit 1)
 				)
 			)
@@ -20073,7 +19115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ebfd0af-85d0-4ba5-9bd8-8665f8b91559")
-		(property "Reference" "S25"
+		(property "Reference" "0)1"
 			(at 156.21 142.24 0)
 			(effects
 				(font
@@ -20089,7 +19131,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 156.21 149.86 0)
 			(effects
 				(font
@@ -20125,7 +19167,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S25")
+					(reference "0)1")
 					(unit 1)
 				)
 			)
@@ -20159,7 +19201,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 134.62 217.17 0)
 			(effects
 				(font
@@ -20295,7 +19337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "519b473a-477d-418e-861c-328daf4e2916")
-		(property "Reference" "S17"
+		(property "Reference" "2@1"
 			(at 58.42 142.24 0)
 			(effects
 				(font
@@ -20311,7 +19353,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 58.42 149.86 0)
 			(effects
 				(font
@@ -20347,7 +19389,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S17")
+					(reference "2@1")
 					(unit 1)
 				)
 			)
@@ -20378,7 +19420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 419.4048 111.76 0)
 			(effects
 				(font
@@ -20422,7 +19464,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 175.26 0)
+		(at 265.43 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20431,7 +19473,7 @@
 		(fields_autoplaced yes)
 		(uuid "54828db0-fb38-4b21-b960-bb08e2b47af3")
 		(property "Reference" "#PWR035"
-			(at 256.54 181.61 0)
+			(at 265.43 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20440,7 +19482,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 180.34 0)
+			(at 265.43 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20448,7 +19490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 175.26 0)
+			(at 265.43 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20457,7 +19499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 175.26 0)
+			(at 265.43 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20466,7 +19508,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 175.26 0)
+			(at 265.43 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20496,7 +19538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55a784ab-e485-45e2-b3f0-53da66ed4085")
-		(property "Reference" "D3"
+		(property "Reference" "F2D1"
 			(at 63.5 134.6199 90)
 			(effects
 				(font
@@ -20514,7 +19556,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 60.96 135.89 0)
 			(effects
 				(font
@@ -20568,7 +19610,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D3")
+					(reference "F2D1")
 					(unit 1)
 				)
 			)
@@ -20600,7 +19642,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 45.72 190.5 0)
 			(effects
 				(font
@@ -20643,113 +19685,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
-		(at 368.3 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5765cf2f-b2c3-4435-a8de-133897e6513a")
-		(property "Reference" "J2"
-			(at 368.3 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
-			(at 368.3 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 372.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
-			(at 368.3 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "232e6a2e-01fb-401c-830d-2aa8ad4a61af")
-		)
-		(pin "B9"
-			(uuid "a72b4383-4962-4386-ac56-52fdf1ed54d5")
-		)
-		(pin "A5"
-			(uuid "f507c390-7c82-4f46-81d0-1bb88f42fa79")
-		)
-		(pin "B5"
-			(uuid "ff144240-5901-45ad-92e7-7701a27dae78")
-		)
-		(pin "B1"
-			(uuid "15c51d01-6831-4693-85ee-cb8c2c8a210e")
-		)
-		(pin "B4"
-			(uuid "a09cfa54-eab0-496d-a1a6-b5142221a424")
-		)
-		(pin "A9"
-			(uuid "6c9b8e5f-a29b-4a60-a173-8f760ef744c9")
-		)
-		(pin "S1"
-			(uuid "6d6b0ee8-7c13-4ca5-9f81-abace3c3b358")
-		)
-		(pin "A7"
-			(uuid "15e71544-d96b-41bd-8dc9-3797d091dd6d")
-		)
-		(pin "A4"
-			(uuid "ce965229-56f2-41a4-b26a-d2502fbd08a9")
-		)
-		(pin "B6"
-			(uuid "0910f5ee-fa00-4e1d-a675-9fdfb0691bb3")
-		)
-		(pin "B7"
-			(uuid "4c529230-d9d3-4f9c-aa56-03434db39d9b")
-		)
-		(pin "A6"
-			(uuid "400a0415-c3de-4819-80e8-52cf0c2dce03")
-		)
-		(pin "B12"
-			(uuid "71d35281-a399-463b-8775-acb51426563d")
-		)
-		(pin "A12"
-			(uuid "0bc0eda0-01fa-4c05-805c-2ce89e938456")
-		)
-		(instances
-			(project "Modulus"
-				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SCOTOKEEBS:Placeholder_Keyswitch")
 		(at 45.72 129.54 0)
 		(unit 1)
@@ -20759,7 +19694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59bc4894-7eba-4c2a-991d-d22c043b69a0")
-		(property "Reference" "S2"
+		(property "Reference" "F1"
 			(at 45.72 121.92 0)
 			(effects
 				(font
@@ -20775,7 +19710,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 45.72 129.54 0)
 			(effects
 				(font
@@ -20811,7 +19746,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S2")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -20933,7 +19868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 171.45 176.53 0)
 			(effects
 				(font
@@ -21003,7 +19938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b89fd29-3498-4a7f-8291-f07d2e6de9d6")
-		(property "Reference" "D18"
+		(property "Reference" "3#D1"
 			(at 76.2 154.9399 90)
 			(effects
 				(font
@@ -21021,7 +19956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 73.66 156.21 0)
 			(effects
 				(font
@@ -21075,7 +20010,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D18")
+					(reference "3#D1")
 					(unit 1)
 				)
 			)
@@ -21109,7 +20044,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 196.85 176.53 0)
 			(effects
 				(font
@@ -21171,16 +20106,15 @@
 	)
 	(symbol
 		(lib_id "SCOTOKEEBS:OLED_128x32")
-		(at 264.16 171.45 0)
+		(at 273.05 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "60340116-b64f-44ae-a91c-b3267488e71a")
 		(property "Reference" "J6"
-			(at 280.67 170.1799 0)
+			(at 275.336 179.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21189,7 +20123,7 @@
 			)
 		)
 		(property "Value" "OLED_128x32"
-			(at 280.67 172.7199 0)
+			(at 275.336 181.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21198,7 +20132,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:OLED_128x32"
-			(at 264.16 162.56 0)
+			(at 273.05 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21207,7 +20141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 170.18 0)
+			(at 273.05 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21216,7 +20150,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 171.45 0)
+			(at 273.05 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21240,75 +20174,6 @@
 			(project ""
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 270.51 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60af3166-ddef-43a3-99b7-1d20ae766984")
-		(property "Reference" "C18"
-			(at 262.382 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 262.382 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.4752 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 270.51 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d95b175f-eaff-4ccd-80e4-4c38a4db53ba")
-		)
-		(pin "1"
-			(uuid "ad90b5fc-da33-47d7-b333-87505509a018")
-		)
-		(instances
-			(project ""
-				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -21342,7 +20207,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 196.85 259.08 0)
 			(effects
 				(font
@@ -21427,7 +20292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 322.199 178.308 0)
 			(effects
 				(font
@@ -21479,7 +20344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "614e885c-5797-4aad-b719-05685a31cc8b")
-		(property "Reference" "S10"
+		(property "Reference" "F9"
 			(at 144.78 121.92 0)
 			(effects
 				(font
@@ -21495,7 +20360,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 144.78 129.54 0)
 			(effects
 				(font
@@ -21531,7 +20396,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S10")
+					(reference "F9")
 					(unit 1)
 				)
 			)
@@ -21562,7 +20427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 472.7448 111.76 0)
 			(effects
 				(font
@@ -21632,7 +20497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 354.33 74.93 0)
 			(effects
 				(font
@@ -21719,7 +20584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.25u"
 			(at 194.31 210.82 0)
 			(effects
 				(font
@@ -21789,7 +20654,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 184.15 196.85 0)
 			(effects
 				(font
@@ -21875,7 +20740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 71.12 190.5 0)
 			(effects
 				(font
@@ -21945,7 +20810,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 121.92 196.85 0)
 			(effects
 				(font
@@ -22015,7 +20880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b85bccd-bcc1-4ff9-bc03-2b0b7f2b67ca")
-		(property "Reference" "D11"
+		(property "Reference" "F10D1"
 			(at 161.29 134.6199 90)
 			(effects
 				(font
@@ -22033,7 +20898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 158.75 135.89 0)
 			(effects
 				(font
@@ -22087,7 +20952,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D11")
+					(reference "F10D1")
 					(unit 1)
 				)
 			)
@@ -22119,7 +20984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 181.61 210.82 0)
 			(effects
 				(font
@@ -22187,7 +21052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 132.08 190.5 0)
 			(effects
 				(font
@@ -22295,93 +21160,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Elektuur:L")
-		(at 285.75 130.81 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ebf2a18-cfea-4999-ab9c-66fe61718965")
-		(property "Reference" "L1"
-			(at 285.75 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7uH"
-			(at 285.75 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 285.75 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coil/winding/inductor/choke/reactor"
-			(at 285.75 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Indicator" "●"
-			(at 283.21 130.937 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "A"
-			(at 288.925 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d6d1424-01ad-4635-9d7b-8816cb281076")
-		)
-		(pin "2"
-			(uuid "621e0e05-1393-4245-a8d7-17e2ad14031b")
-		)
-		(instances
-			(project ""
-				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SL_Resistors:Resistor")
 		(at 66.04 59.69 0)
 		(unit 1)
@@ -22406,7 +21184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 66.929 64.008 0)
 			(effects
 				(font
@@ -22476,7 +21254,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 196.85 217.17 0)
 			(effects
 				(font
@@ -22546,7 +21324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "726d9a05-0797-4b89-bef8-62812f456b02")
-		(property "Reference" "S27"
+		(property "Reference" "=+1"
 			(at 181.61 142.24 0)
 			(effects
 				(font
@@ -22562,7 +21340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 181.61 149.86 0)
 			(effects
 				(font
@@ -22598,7 +21376,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S27")
+					(reference "=+1")
 					(unit 1)
 				)
 			)
@@ -22761,7 +21539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 181.61 190.5 0)
 			(effects
 				(font
@@ -22896,7 +21674,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 109.22 217.17 0)
 			(effects
 				(font
@@ -22966,7 +21744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75accb2d-c6d2-4c82-9ad1-dd7eff93306d")
-		(property "Reference" "S15"
+		(property "Reference" "`~1"
 			(at 33.02 142.24 0)
 			(effects
 				(font
@@ -22982,7 +21760,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 33.02 149.86 0)
 			(effects
 				(font
@@ -23018,7 +21796,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S15")
+					(reference "`~1")
 					(unit 1)
 				)
 			)
@@ -23026,7 +21804,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 251.46 175.26 180)
+		(at 260.35 175.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23035,7 +21813,7 @@
 		(fields_autoplaced yes)
 		(uuid "77c9b235-6e59-49aa-ab29-50d8d900c888")
 		(property "Reference" "#PWR033"
-			(at 251.46 171.45 0)
+			(at 260.35 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23044,7 +21822,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 251.46 180.34 0)
+			(at 260.35 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23052,7 +21830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 175.26 0)
+			(at 260.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23061,7 +21839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 175.26 0)
+			(at 260.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23070,7 +21848,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 251.46 175.26 0)
+			(at 260.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23100,7 +21878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77d92897-0ea7-4361-8d0c-522ac1d6a697")
-		(property "Reference" "S11"
+		(property "Reference" "F10"
 			(at 156.21 121.92 0)
 			(effects
 				(font
@@ -23116,7 +21894,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 156.21 129.54 0)
 			(effects
 				(font
@@ -23152,7 +21930,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S11")
+					(reference "F10")
 					(unit 1)
 				)
 			)
@@ -23184,7 +21962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 106.68 210.82 0)
 			(effects
 				(font
@@ -23252,7 +22030,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 144.78 210.82 0)
 			(effects
 				(font
@@ -23295,6 +22073,73 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 266.7 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a2041db-9a78-468e-a95d-a6c99e114b0c")
+		(property "Reference" "R16"
+			(at 266.7 166.116 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 266.7 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+			(at 267.589 171.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.208 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 266.7 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34682e1f-8a65-48f0-a512-d81485e67cc5")
+		)
+		(pin "1"
+			(uuid "62129340-6106-4f32-94c5-1059ae573ee3")
+		)
+		(instances
+			(project "Modulus"
+				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SCOTOKEEBS:Placeholder_Keyswitch")
 		(at 45.72 210.82 0)
 		(unit 1)
@@ -23320,7 +22165,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.50u"
 			(at 45.72 210.82 0)
 			(effects
 				(font
@@ -23388,7 +22233,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 95.25 170.18 0)
 			(effects
 				(font
@@ -23505,7 +22350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7efe3750-355f-4323-9687-9ee87ccc49c5")
-		(property "Reference" "D22"
+		(property "Reference" "7&D1"
 			(at 124.46 154.9399 90)
 			(effects
 				(font
@@ -23523,7 +22368,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 121.92 156.21 0)
 			(effects
 				(font
@@ -23577,7 +22422,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D22")
+					(reference "7&D1")
 					(unit 1)
 				)
 			)
@@ -23675,7 +22520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 82.55 210.82 0)
 			(effects
 				(font
@@ -23795,7 +22640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "817de856-6b00-4470-a6a3-05ef1279946d")
-		(property "Reference" "S22"
+		(property "Reference" "7&1"
 			(at 119.38 142.24 0)
 			(effects
 				(font
@@ -23811,7 +22656,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 119.38 149.86 0)
 			(effects
 				(font
@@ -23847,7 +22692,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S22")
+					(reference "7&1")
 					(unit 1)
 				)
 			)
@@ -23881,7 +22726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.43 74.93 0)
 			(effects
 				(font
@@ -23952,7 +22797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82ad43d3-bb86-45f7-b3a4-b8ebf43637da")
-		(property "Reference" "D15"
+		(property "Reference" "`~D1"
 			(at 38.1 154.9399 90)
 			(effects
 				(font
@@ -23970,7 +22815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 35.56 156.21 0)
 			(effects
 				(font
@@ -24024,7 +22869,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D15")
+					(reference "`~D1")
 					(unit 1)
 				)
 			)
@@ -24056,7 +22901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 156.21 190.5 0)
 			(effects
 				(font
@@ -24099,75 +22944,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 330.2 151.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82efbfb4-098f-433f-9f2e-9fefb91731ca")
-		(property "Reference" "C19"
-			(at 331.47 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 328.93 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 326.39 152.0952 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 330.2 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 330.2 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8a3e3459-4c35-4323-8b04-1aeb133e47f7")
-		)
-		(pin "1"
-			(uuid "6f52983b-0733-4815-bee9-4e786f8c55bd")
-		)
-		(instances
-			(project "Modulus"
-				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SCOTOKEEBS:Placeholder_Keyswitch")
 		(at 132.08 149.86 0)
 		(unit 1)
@@ -24177,7 +22953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8485dd98-cea9-4b0d-ad51-828c59ae823e")
-		(property "Reference" "S23"
+		(property "Reference" "8*1"
 			(at 132.08 142.24 0)
 			(effects
 				(font
@@ -24193,7 +22969,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 132.08 149.86 0)
 			(effects
 				(font
@@ -24229,7 +23005,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S23")
+					(reference "8*1")
 					(unit 1)
 				)
 			)
@@ -24392,7 +23168,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.50u"
 			(at 194.31 170.18 0)
 			(effects
 				(font
@@ -24460,7 +23236,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 71.12 232.41 0)
 			(effects
 				(font
@@ -24830,7 +23606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 97.79 238.76 0)
 			(effects
 				(font
@@ -24918,7 +23694,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 60.96 176.53 0)
 			(effects
 				(font
@@ -25005,7 +23781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 452.12 183.8452 0)
 			(effects
 				(font
@@ -25074,7 +23850,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 184.15 259.08 0)
 			(effects
 				(font
@@ -25160,7 +23936,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 106.68 190.5 0)
 			(effects
 				(font
@@ -25197,6 +23973,73 @@
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
 					(reference "S51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 266.7 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9605bb37-5302-4aa8-93c3-3f2c1c0fbeaf")
+		(property "Reference" "R17"
+			(at 266.7 171.704 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 266.7 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
+			(at 267.589 174.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.208 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 266.7 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2272009-3983-4c8b-9baf-67d5c0264de0")
+		)
+		(pin "1"
+			(uuid "ddd4abf6-4dd4-4ba2-92d3-0dd811273858")
+		)
+		(instances
+			(project "Modulus"
+				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -25295,7 +24138,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 35.56 217.17 0)
 			(effects
 				(font
@@ -25365,7 +24208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97ed1258-8857-4c3c-a097-974eeb03e952")
-		(property "Reference" "S19"
+		(property "Reference" "4$1"
 			(at 82.55 142.24 0)
 			(effects
 				(font
@@ -25381,7 +24224,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 82.55 149.86 0)
 			(effects
 				(font
@@ -25417,7 +24260,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S19")
+					(reference "4$1")
 					(unit 1)
 				)
 			)
@@ -25451,7 +24294,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 48.26 196.85 0)
 			(effects
 				(font
@@ -25537,7 +24380,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 181.61 170.18 0)
 			(effects
 				(font
@@ -25671,7 +24514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 82.55 170.18 0)
 			(effects
 				(font
@@ -25807,7 +24650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 196.85 196.85 0)
 			(effects
 				(font
@@ -25877,7 +24720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cc97b57-b829-4004-a1e3-5948fd7995b6")
-		(property "Reference" "D5"
+		(property "Reference" "F4D1"
 			(at 87.63 134.6199 90)
 			(effects
 				(font
@@ -25895,7 +24738,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 85.09 135.89 0)
 			(effects
 				(font
@@ -25949,7 +24792,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D5")
+					(reference "F4D1")
 					(unit 1)
 				)
 			)
@@ -25981,7 +24824,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.50u"
 			(at 106.68 232.41 0)
 			(effects
 				(font
@@ -26091,7 +24934,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 270.51 140.97 0)
+		(at 314.96 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26099,7 +24942,7 @@
 		(dnp no)
 		(uuid "9ff5a794-8e53-4e7b-9c40-730e30d1c0f4")
 		(property "Reference" "#PWR09"
-			(at 270.51 144.78 0)
+			(at 314.96 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26108,7 +24951,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 272.288 137.414 0)
+			(at 316.738 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26116,7 +24959,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 140.97 0)
+			(at 314.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26125,7 +24968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 140.97 0)
+			(at 314.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26134,7 +24977,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 270.51 140.97 0)
+			(at 314.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26149,73 +24992,6 @@
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 317.5 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1666155-5119-4946-8eff-97b76f2a4d11")
-		(property "Reference" "R2"
-			(at 317.5 145.796 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "88.7K"
-			(at 317.5 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 318.389 146.558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.008 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/4W Resistor"
-			(at 317.5 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "02f639ac-6912-49a9-abb9-0c5792aa771c")
-		)
-		(pin "1"
-			(uuid "c96dbe87-7e01-4efd-9e21-535a3ca0978c")
-		)
-		(instances
-			(project "Modulus"
-				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -26249,7 +25025,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 158.75 238.76 0)
 			(effects
 				(font
@@ -26319,7 +25095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a29bd718-f060-4359-aaf2-997abe124fe2")
-		(property "Reference" "D14"
+		(property "Reference" "DelD1"
 			(at 199.39 134.6199 90)
 			(effects
 				(font
@@ -26337,7 +25113,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 196.85 135.89 0)
 			(effects
 				(font
@@ -26391,7 +25167,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D14")
+					(reference "DelD1")
 					(unit 1)
 				)
 			)
@@ -26425,7 +25201,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 35.56 196.85 0)
 			(effects
 				(font
@@ -26513,7 +25289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 73.66 196.85 0)
 			(effects
 				(font
@@ -26599,7 +25375,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.50u"
 			(at 33.02 170.18 0)
 			(effects
 				(font
@@ -26667,7 +25443,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 119.38 190.5 0)
 			(effects
 				(font
@@ -26737,7 +25513,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 73.66 176.53 0)
 			(effects
 				(font
@@ -26825,7 +25601,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 97.79 196.85 0)
 			(effects
 				(font
@@ -26895,7 +25671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad19205d-099f-496a-9ec2-3d47863eaca1")
-		(property "Reference" "D25"
+		(property "Reference" "0)D1"
 			(at 161.29 154.9399 90)
 			(effects
 				(font
@@ -26913,7 +25689,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 158.75 156.21 0)
 			(effects
 				(font
@@ -26967,7 +25743,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D25")
+					(reference "0)D1")
 					(unit 1)
 				)
 			)
@@ -26999,7 +25775,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 168.91 190.5 0)
 			(effects
 				(font
@@ -27069,7 +25845,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 85.09 176.53 0)
 			(effects
 				(font
@@ -27157,7 +25933,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 109.22 196.85 0)
 			(effects
 				(font
@@ -27227,7 +26003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af00b778-e715-4ee9-a90c-bae6ef6392a1")
-		(property "Reference" "D8"
+		(property "Reference" "F7D1"
 			(at 124.46 134.6199 90)
 			(effects
 				(font
@@ -27245,7 +26021,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 121.92 135.89 0)
 			(effects
 				(font
@@ -27299,7 +26075,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D8")
+					(reference "F7D1")
 					(unit 1)
 				)
 			)
@@ -27315,7 +26091,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af1dbb67-6636-413d-b6be-aaf581df72db")
-		(property "Reference" "S29"
+		(property "Reference" "Backspace2"
 			(at 205.74 142.24 0)
 			(effects
 				(font
@@ -27331,7 +26107,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 205.74 149.86 0)
 			(effects
 				(font
@@ -27367,7 +26143,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S29")
+					(reference "Backspace2")
 					(unit 1)
 				)
 			)
@@ -27401,7 +26177,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 147.32 176.53 0)
 			(effects
 				(font
@@ -27471,7 +26247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afd22731-cf0d-463e-8421-3958bd84ef0b")
-		(property "Reference" "D2"
+		(property "Reference" "F1D1"
 			(at 50.8 134.6199 90)
 			(effects
 				(font
@@ -27489,7 +26265,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 48.26 135.89 0)
 			(effects
 				(font
@@ -27543,7 +26319,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D2")
+					(reference "F1D1")
 					(unit 1)
 				)
 			)
@@ -27559,7 +26335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afe0addb-061d-4be9-b187-223f78bd320e")
-		(property "Reference" "S12"
+		(property "Reference" "F11"
 			(at 168.91 121.92 0)
 			(effects
 				(font
@@ -27575,7 +26351,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 168.91 129.54 0)
 			(effects
 				(font
@@ -27611,7 +26387,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S12")
+					(reference "F11")
 					(unit 1)
 				)
 			)
@@ -27643,7 +26419,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 132.08 232.41 0)
 			(effects
 				(font
@@ -27713,7 +26489,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 60.96 238.76 0)
 			(effects
 				(font
@@ -27801,7 +26577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 287.02 48.26 0)
 			(effects
 				(font
@@ -27887,7 +26663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 325.12 52.3748 0)
 			(effects
 				(font
@@ -27955,7 +26731,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 58.42 210.82 0)
 			(effects
 				(font
@@ -28023,7 +26799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 82.55 190.5 0)
 			(effects
 				(font
@@ -28091,7 +26867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.50u"
 			(at 82.55 232.41 0)
 			(effects
 				(font
@@ -28159,7 +26935,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 95.25 190.5 0)
 			(effects
 				(font
@@ -28211,7 +26987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b70daa1b-af24-4b92-b2e5-df59fe2f12e0")
-		(property "Reference" "D9"
+		(property "Reference" "F8D1"
 			(at 137.16 134.6199 90)
 			(effects
 				(font
@@ -28229,7 +27005,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 134.62 135.89 0)
 			(effects
 				(font
@@ -28283,7 +27059,120 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D9")
+					(reference "F8D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 368.3 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b810347b-f1ec-4f1d-ac6b-8cd3ed30cfdc")
+		(property "Reference" "J2"
+			(at 368.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 368.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:USB_C_HRO_TYPE-C-31-M-12"
+			(at 372.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 372.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 368.3 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A12"
+			(uuid "7b26e66b-43cf-42ba-a077-4d75e3c79567")
+		)
+		(pin "B1"
+			(uuid "9d6b1b01-4824-430a-99cf-cee89b391cbf")
+		)
+		(pin "B12"
+			(uuid "cd6b08a1-c824-48cb-ba56-c149eb048f7a")
+		)
+		(pin "A4"
+			(uuid "cc507b8d-8213-4b27-8da7-ee99c6c68f2c")
+		)
+		(pin "A9"
+			(uuid "466f2842-3b37-4d7b-ae1a-22498defba99")
+		)
+		(pin "B4"
+			(uuid "a5ba5204-6923-4ebf-b8c4-cf7b223d9268")
+		)
+		(pin "B9"
+			(uuid "a7667e8d-85e5-4995-a4f5-b231b05c1f93")
+		)
+		(pin "A5"
+			(uuid "376df770-994c-404d-a506-3d3f403cdb12")
+		)
+		(pin "B5"
+			(uuid "b9a1f80a-82a8-4c63-a9a1-404e70a59aa4")
+		)
+		(pin "A7"
+			(uuid "6195ad2e-a353-4e39-b9aa-c1ed9b5811b3")
+		)
+		(pin "B7"
+			(uuid "2651d1cc-539b-499b-9e00-d1879efc882c")
+		)
+		(pin "A6"
+			(uuid "573b8e28-18a3-4ff8-a250-4a9b8e85a6fd")
+		)
+		(pin "B6"
+			(uuid "1f334010-acbd-445a-93f4-ed7f3ca8b31a")
+		)
+		(pin "A8"
+			(uuid "42a6b1b6-e4ba-41a8-9318-5a3b8198e4e6")
+		)
+		(pin "B8"
+			(uuid "0fcd42b6-2fd4-4cc5-ae2c-745c7fb3ccdd")
+		)
+		(pin "S1"
+			(uuid "41b281c1-95a9-4910-b05c-106cceea08a4")
+		)
+		(pin "A1"
+			(uuid "425fff24-1827-4290-83f1-893c18f501f0")
+		)
+		(instances
+			(project ""
+				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -28315,7 +27204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 194.31 232.41 0)
 			(effects
 				(font
@@ -28358,72 +27247,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 285.75 151.13 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b957e65b-c347-44cf-8fc4-6a91106a6dd7")
-		(property "Reference" "#PWR032"
-			(at 285.75 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 285.75 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 285.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 285.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 285.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e775411e-8f36-476f-9caf-6e6ab4ee1862")
-		)
-		(instances
-			(project "Modulus"
-				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SCOTOKEEBS:Placeholder_Diode")
 		(at 85.09 156.21 90)
 		(unit 1)
@@ -28433,7 +27256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9abe160-ee14-4fb1-9206-a59927e5c752")
-		(property "Reference" "D19"
+		(property "Reference" "4$D1"
 			(at 87.63 154.9399 90)
 			(effects
 				(font
@@ -28451,7 +27274,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 85.09 156.21 0)
 			(effects
 				(font
@@ -28505,7 +27328,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D19")
+					(reference "4$D1")
 					(unit 1)
 				)
 			)
@@ -28536,7 +27359,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 334.01 46.99 0)
 			(effects
 				(font
@@ -28594,7 +27417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "baee3863-e642-4203-85cb-09759e985df0")
-		(property "Reference" "S16"
+		(property "Reference" "1!1"
 			(at 45.72 142.24 0)
 			(effects
 				(font
@@ -28610,7 +27433,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 45.72 149.86 0)
 			(effects
 				(font
@@ -28646,7 +27469,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S16")
+					(reference "1!1")
 					(unit 1)
 				)
 			)
@@ -28680,7 +27503,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 158.75 176.53 0)
 			(effects
 				(font
@@ -28750,7 +27573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be297dc8-3056-4719-8c58-40a2a83b5cfd")
-		(property "Reference" "S7"
+		(property "Reference" "F6"
 			(at 106.68 121.92 0)
 			(effects
 				(font
@@ -28766,7 +27589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 106.68 129.54 0)
 			(effects
 				(font
@@ -28802,7 +27625,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S7")
+					(reference "F6")
 					(unit 1)
 				)
 			)
@@ -28834,7 +27657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 194.31 252.73 0)
 			(effects
 				(font
@@ -28904,7 +27727,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 171.45 196.85 0)
 			(effects
 				(font
@@ -28991,7 +27814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 106.68 58.42 0)
 			(effects
 				(font
@@ -29080,7 +27903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 328.93 74.93 0)
 			(effects
 				(font
@@ -29151,7 +27974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4005326-9033-47c3-b62a-28c3c24601bf")
-		(property "Reference" "D10"
+		(property "Reference" "F9D1"
 			(at 149.86 134.6199 90)
 			(effects
 				(font
@@ -29169,7 +27992,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 147.32 135.89 0)
 			(effects
 				(font
@@ -29223,7 +28046,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D10")
+					(reference "F9D1")
 					(unit 1)
 				)
 			)
@@ -29239,7 +28062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4623b53-8963-4ee5-b779-7dd5b89ba040")
-		(property "Reference" "S9"
+		(property "Reference" "F8"
 			(at 132.08 121.92 0)
 			(effects
 				(font
@@ -29255,7 +28078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 132.08 129.54 0)
 			(effects
 				(font
@@ -29291,7 +28114,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S9")
+					(reference "F8")
 					(unit 1)
 				)
 			)
@@ -29307,7 +28130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4b10d70-82af-455b-a4a7-1710394c362f")
-		(property "Reference" "D30"
+		(property "Reference" "DelD2"
 			(at 210.82 134.6199 90)
 			(effects
 				(font
@@ -29325,7 +28148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 208.28 135.89 0)
 			(effects
 				(font
@@ -29379,7 +28202,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D30")
+					(reference "DelD2")
 					(unit 1)
 				)
 			)
@@ -29413,7 +28236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 73.66 217.17 0)
 			(effects
 				(font
@@ -29498,7 +28321,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 457.2 197.1548 0)
 			(effects
 				(font
@@ -29550,7 +28373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6732570-feeb-496d-aa9e-d88e6eb2fabc")
-		(property "Reference" "D20"
+		(property "Reference" "5%D1"
 			(at 100.33 154.9399 90)
 			(effects
 				(font
@@ -29568,7 +28391,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 97.79 156.21 0)
 			(effects
 				(font
@@ -29622,7 +28445,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D20")
+					(reference "5%D1")
 					(unit 1)
 				)
 			)
@@ -29656,7 +28479,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 85.09 238.76 0)
 			(effects
 				(font
@@ -29742,7 +28565,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 45.72 232.41 0)
 			(effects
 				(font
@@ -29941,7 +28764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 168.91 210.82 0)
 			(effects
 				(font
@@ -30011,7 +28834,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 121.92 176.53 0)
 			(effects
 				(font
@@ -30163,7 +28986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 71.12 170.18 0)
 			(effects
 				(font
@@ -30231,7 +29054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 33.02 232.41 0)
 			(effects
 				(font
@@ -30299,7 +29122,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 132.08 210.82 0)
 			(effects
 				(font
@@ -30369,7 +29192,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 134.62 238.76 0)
 			(effects
 				(font
@@ -30439,7 +29262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3d0e1d5-f649-4eef-81c3-d363c6211ca9")
-		(property "Reference" "D26"
+		(property "Reference" "-_D1"
 			(at 173.99 154.9399 90)
 			(effects
 				(font
@@ -30457,7 +29280,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 171.45 156.21 0)
 			(effects
 				(font
@@ -30511,7 +29334,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D26")
+					(reference "-_D1")
 					(unit 1)
 				)
 			)
@@ -30543,7 +29366,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NC3FAAH:NEUTRIK_NC3FAAH"
 			(at 307.34 120.65 0)
 			(effects
 				(font
@@ -30616,7 +29439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
 			(at 494.792 156.21 90)
 			(effects
 				(font
@@ -30683,7 +29506,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 168.91 232.41 0)
 			(effects
 				(font
@@ -30751,7 +29574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.25u"
 			(at 194.31 190.5 0)
 			(effects
 				(font
@@ -30821,7 +29644,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 48.26 176.53 0)
 			(effects
 				(font
@@ -30891,7 +29714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5c33e11-3bc3-495c-97b2-8120adedd303")
-		(property "Reference" "D12"
+		(property "Reference" "F11D1"
 			(at 173.99 134.6199 90)
 			(effects
 				(font
@@ -30909,7 +29732,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 171.45 135.89 0)
 			(effects
 				(font
@@ -30963,7 +29786,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D12")
+					(reference "F11D1")
 					(unit 1)
 				)
 			)
@@ -30994,7 +29817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 430.8348 111.76 0)
 			(effects
 				(font
@@ -31128,7 +29951,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 168.91 170.18 0)
 			(effects
 				(font
@@ -31196,7 +30019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 58.42 190.5 0)
 			(effects
 				(font
@@ -31266,7 +30089,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 85.09 196.85 0)
 			(effects
 				(font
@@ -31420,7 +30243,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 97.79 217.17 0)
 			(effects
 				(font
@@ -31490,7 +30313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df66fff2-696d-4c9a-b07a-002ea1234de9")
-		(property "Reference" "D17"
+		(property "Reference" "2@D1"
 			(at 63.5 154.9399 90)
 			(effects
 				(font
@@ -31508,7 +30331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 60.96 156.21 0)
 			(effects
 				(font
@@ -31562,7 +30385,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D17")
+					(reference "2@D1")
 					(unit 1)
 				)
 			)
@@ -31594,7 +30417,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 168.91 252.73 0)
 			(effects
 				(font
@@ -31646,7 +30469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df92e62c-cdae-4e4c-b44a-85336f47a827")
-		(property "Reference" "S6"
+		(property "Reference" "F5"
 			(at 95.25 121.92 0)
 			(effects
 				(font
@@ -31662,7 +30485,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 95.25 129.54 0)
 			(effects
 				(font
@@ -31698,7 +30521,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S6")
+					(reference "F5")
 					(unit 1)
 				)
 			)
@@ -31729,7 +30552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 351.409 57.658 0)
 			(effects
 				(font
@@ -31797,7 +30620,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.50u"
 			(at 95.25 232.41 0)
 			(effects
 				(font
@@ -31933,7 +30756,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 60.96 196.85 0)
 			(effects
 				(font
@@ -32021,7 +30844,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 35.56 176.53 0)
 			(effects
 				(font
@@ -32172,7 +30995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.75u"
 			(at 33.02 190.5 0)
 			(effects
 				(font
@@ -32242,7 +31065,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 48.26 238.76 0)
 			(effects
 				(font
@@ -32328,7 +31151,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 181.61 252.73 0)
 			(effects
 				(font
@@ -32445,7 +31268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3a94f13-4e97-46f1-b301-ec505669b93d")
-		(property "Reference" "D29"
+		(property "Reference" "BackspaceD2"
 			(at 210.82 154.9399 90)
 			(effects
 				(font
@@ -32463,7 +31286,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 208.28 156.21 0)
 			(effects
 				(font
@@ -32517,7 +31340,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D29")
+					(reference "BackspaceD2")
 					(unit 1)
 				)
 			)
@@ -32533,7 +31356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3d367d7-f21f-4a19-9d58-3d1825715a55")
-		(property "Reference" "S1"
+		(property "Reference" "Esc1"
 			(at 33.02 121.92 0)
 			(effects
 				(font
@@ -32549,7 +31372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 33.02 129.54 0)
 			(effects
 				(font
@@ -32585,7 +31408,7 @@
 		(instances
 			(project ""
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S1")
+					(reference "Esc1")
 					(unit 1)
 				)
 			)
@@ -32616,7 +31439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 			(at 388.239 136.398 0)
 			(effects
 				(font
@@ -32684,7 +31507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 58.42 170.18 0)
 			(effects
 				(font
@@ -32752,7 +31575,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 45.72 170.18 0)
 			(effects
 				(font
@@ -32820,7 +31643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 144.78 170.18 0)
 			(effects
 				(font
@@ -32872,7 +31695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5c7d5ce-645d-4033-9521-2a1e8188f55b")
-		(property "Reference" "S21"
+		(property "Reference" "6^1"
 			(at 106.68 142.24 0)
 			(effects
 				(font
@@ -32888,7 +31711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 106.68 149.86 0)
 			(effects
 				(font
@@ -32924,7 +31747,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S21")
+					(reference "6^1")
 					(unit 1)
 				)
 			)
@@ -32956,7 +31779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 144.78 190.5 0)
 			(effects
 				(font
@@ -33026,7 +31849,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 184.15 238.76 0)
 			(effects
 				(font
@@ -33114,7 +31937,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 184.15 217.17 0)
 			(effects
 				(font
@@ -33200,7 +32023,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 119.38 210.82 0)
 			(effects
 				(font
@@ -33270,7 +32093,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 109.22 238.76 0)
 			(effects
 				(font
@@ -33424,7 +32247,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 134.62 176.53 0)
 			(effects
 				(font
@@ -33494,7 +32317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaef4379-a385-4e3c-a887-c8c6b5e4c0ea")
-		(property "Reference" "S13"
+		(property "Reference" "F12"
 			(at 181.61 121.92 0)
 			(effects
 				(font
@@ -33510,7 +32333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 181.61 129.54 0)
 			(effects
 				(font
@@ -33546,7 +32369,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S13")
+					(reference "F12")
 					(unit 1)
 				)
 			)
@@ -33651,7 +32474,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 97.79 176.53 0)
 			(effects
 				(font
@@ -33739,7 +32562,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 171.45 259.08 0)
 			(effects
 				(font
@@ -33809,7 +32632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee0aa6ea-4a52-4237-a844-bb84f1423274")
-		(property "Reference" "D1"
+		(property "Reference" "EscD1"
 			(at 38.1 134.6199 90)
 			(effects
 				(font
@@ -33827,7 +32650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 35.56 135.89 0)
 			(effects
 				(font
@@ -33881,75 +32704,7 @@
 		(instances
 			(project ""
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Diode_Schottky_AKL:SS34")
-		(at 297.18 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee90da96-11e8-4473-8ded-f4198a3765c2")
-		(property "Reference" "D90"
-			(at 297.4975 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34"
-			(at 297.4975 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_SMC"
-			(at 297.18 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/4534c3d1273464918563ce78bdeb2ece/SS34-E3-57T.pdf"
-			(at 297.18 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMC Schottky diode, 40V, 3A, Alternate KiCAD Library"
-			(at 297.18 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f466ee7-cf67-40ad-bbe6-b082324cc017")
-		)
-		(pin "2"
-			(uuid "524ca5ef-3360-46a4-aae7-2ca87217ac3c")
-		)
-		(instances
-			(project ""
-				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D90")
+					(reference "EscD1")
 					(unit 1)
 				)
 			)
@@ -33965,7 +32720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efa36612-01f3-4eb3-9979-84954d4553ee")
-		(property "Reference" "D23"
+		(property "Reference" "8*D1"
 			(at 137.16 154.9399 90)
 			(effects
 				(font
@@ -33983,7 +32738,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 134.62 156.21 0)
 			(effects
 				(font
@@ -34037,7 +32792,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "D23")
+					(reference "8*D1")
 					(unit 1)
 				)
 			)
@@ -34053,7 +32808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2b95258-3148-4bc4-b533-0dca975c4c5f")
-		(property "Reference" "S26"
+		(property "Reference" "-_1"
 			(at 168.91 142.24 0)
 			(effects
 				(font
@@ -34069,7 +32824,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 168.91 149.86 0)
 			(effects
 				(font
@@ -34105,7 +32860,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S26")
+					(reference "-_1")
 					(unit 1)
 				)
 			)
@@ -34203,7 +32958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.25u"
 			(at 33.02 210.82 0)
 			(effects
 				(font
@@ -34273,7 +33028,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 196.85 238.76 0)
 			(effects
 				(font
@@ -34335,6 +33090,73 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Resistors:Resistor")
+		(at 488.95 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f56015ec-a6fb-466d-ac86-5ba7cc677359")
+		(property "Reference" "R10"
+			(at 492.252 165.1 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 490.982 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0201_0603Metric"
+			(at 493.268 164.211 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 488.95 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4W Resistor"
+			(at 488.95 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1525318-e6b7-4d6a-a305-951a17e65b30")
+		)
+		(pin "1"
+			(uuid "8c12e8ac-adff-49fc-a9b2-1da95dded0e9")
+		)
+		(instances
+			(project "Modulus"
+				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Resistors:Resistor")
 		(at 482.6 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34358,7 +33180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 483.489 215.138 0)
 			(effects
 				(font
@@ -34425,7 +33247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_1206_3216Metric"
 			(at 62.738 65.151 0)
 			(effects
 				(font
@@ -34477,7 +33299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8e306c1-3d82-4188-a80d-924ce50318c1")
-		(property "Reference" "S14"
+		(property "Reference" "Del1"
 			(at 194.31 121.92 0)
 			(effects
 				(font
@@ -34493,7 +33315,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 194.31 129.54 0)
 			(effects
 				(font
@@ -34529,7 +33351,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S14")
+					(reference "Del1")
 					(unit 1)
 				)
 			)
@@ -34563,7 +33385,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 171.45 217.17 0)
 			(effects
 				(font
@@ -34633,7 +33455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc587fc3-e9a4-4257-8742-76ce760b57ef")
-		(property "Reference" "S4"
+		(property "Reference" "F3"
 			(at 71.12 121.92 0)
 			(effects
 				(font
@@ -34649,7 +33471,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 71.12 129.54 0)
 			(effects
 				(font
@@ -34685,7 +33507,7 @@
 		(instances
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "S4")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -34717,7 +33539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 156.21 232.41 0)
 			(effects
 				(font
