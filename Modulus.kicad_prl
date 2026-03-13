@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer": 2,
+    "active_layer_preset": "All Copper Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -38,12 +38,13 @@
       "footprint_values",
       "footprint_references",
       "tracks",
+      "drc_errors",
       "bitmaps",
       "pads",
       "zones",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "00000000_00000000_55555555_57555555",
     "zone_display_mode": 0
   },
   "git": {
@@ -81,16 +82,16 @@
       9
     ],
     "col_widths": [
-      156,
-      141,
-      103,
-      71,
-      103,
-      103,
-      103,
-      74,
-      103,
-      10
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
