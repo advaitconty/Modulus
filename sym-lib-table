@@ -3,4 +3,5 @@
   (lib (name "GL850G")(type "KiCad")(uri "${KIPRJMOD}/GL850G/GL850G.kicad_sym")(options "")(descr ""))
   (lib (name "NC3FAAH")(type "KiCad")(uri "${KIPRJMOD}/NC3FAAH/NC3FAAH.kicad_sym")(options "")(descr ""))
   (lib (name "USB1046-GF-0190-L-B-A_REVB4")(type "KiCad")(uri "${KIPRJMOD}/USB1046-GF-0190-L-B-A_REVB4/USB1046-GF-0190-L-B-A_REVB4.kicad_sym")(options "")(descr ""))
+  (lib (name "ScottoKeebs_KiCAD")(type "KiCad")(uri "${KIPRJMOD}/ScottoKiCAD/symbols/ScottoKeebs.kicad_sym")(options "")(descr ""))
 )
