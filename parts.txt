@@ -10,3 +10,4 @@ Crystal - https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322512MSB4SI/C90
 
 Resistors
 220ohm (0805) - https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557
+

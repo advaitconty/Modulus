@@ -4370,7 +4370,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:NCP1117-1.5_SOT223"
+		(symbol "Regulator_Linear:NCP1117-3.3_SOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4382,7 +4382,7 @@
 					)
 				)
 			)
-			(property "Value" "NCP1117-1.5_SOT223"
+			(property "Value" "NCP1117-3.3_SOT223"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -4409,7 +4409,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A Low drop-out regulator, Fixed Output 1.5V, SOT-223"
+			(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4418,7 +4418,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "REGULATOR LDO 1.5V"
+			(property "ki_keywords" "REGULATOR LDO 3.3V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4436,7 +4436,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NCP1117-1.5_SOT223_0_1"
+			(symbol "NCP1117-3.3_SOT223_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -4449,7 +4449,7 @@
 					)
 				)
 			)
-			(symbol "NCP1117-1.5_SOT223_1_1"
+			(symbol "NCP1117-3.3_SOT223_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -8777,7 +8777,7 @@
 	)
 	(wire
 		(pts
-			(xy 488.95 170.18) (xy 488.95 168.91)
+			(xy 488.95 158.75) (xy 488.95 170.18)
 		)
 		(stroke
 			(width 0)
@@ -9297,6 +9297,16 @@
 	)
 	(wire
 		(pts
+			(xy 481.33 158.75) (xy 488.95 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76a0def-1bdf-49d6-a859-1031c1ba25ad")
+	)
+	(wire
+		(pts
 			(xy 455.93 125.73) (xy 455.93 123.19)
 		)
 		(stroke
@@ -9684,16 +9694,6 @@
 			(type default)
 		)
 		(uuid "da0c6e61-653f-4a47-b6b2-434439d08dec")
-	)
-	(wire
-		(pts
-			(xy 488.95 161.29) (xy 488.95 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbe49ea0-9074-44b4-a1f5-e5c9f82207ca")
 	)
 	(wire
 		(pts
@@ -12260,6 +12260,7 @@
 	(symbol
 		(lib_id "PCM_SL_Resistors:Resistor")
 		(at 477.52 158.75 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12274,7 +12275,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "680"
 			(at 477.52 160.782 0)
 			(effects
 				(font
@@ -12283,7 +12284,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 478.409 163.068 0)
+			(at 476.631 163.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12292,7 +12293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 478.028 158.75 0)
+			(at 477.012 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15849,7 +15850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.392 30.099 0)
 			(effects
 				(font
@@ -16209,7 +16210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 503.682 156.21 90)
 			(effects
 				(font
@@ -18581,73 +18582,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 485.14 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4596fd9c-6929-4214-a71e-1eaca53734d1")
-		(property "Reference" "R2"
-			(at 485.14 162.052 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 485.14 160.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 486.029 163.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 485.648 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/4W Resistor"
-			(at 485.14 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ab85eee3-79fd-4ee1-b82b-bad2216d97b0")
-		)
-		(pin "1"
-			(uuid "13c92d8d-dceb-4b6a-aec5-30274a99af94")
-		)
-		(instances
-			(project "Modulus"
-				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SCOTOKEEBS:Placeholder_Keyswitch")
 		(at 119.38 232.41 0)
 		(unit 1)
@@ -18983,7 +18917,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 217.932 30.099 0)
 			(effects
 				(font
@@ -24336,6 +24270,77 @@
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
 					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:NCP1117-3.3_SOT223")
+		(at 115.57 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9859454e-6618-43cd-9c8c-665a30f1e8e1")
+		(property "Reference" "U4"
+			(at 115.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCP1117-3.3_SOT223"
+			(at 115.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 115.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"
+			(at 115.57 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c7ef9bdc-91b8-4a21-9bf2-c42a763a6b6e")
+		)
+		(pin "1"
+			(uuid "de22d5eb-bdda-4d2a-9fc5-2ed7bdb1a388")
+		)
+		(pin "2"
+			(uuid "30e51364-1a22-4ca4-bdee-d2664d7a1749")
+		)
+		(instances
+			(project ""
+				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -32274,77 +32279,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:NCP1117-1.5_SOT223")
-		(at 115.57 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb910f57-e575-4eba-8f7a-6147dd314118")
-		(property "Reference" "U2"
-			(at 115.57 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NCP1117-1.5_SOT223"
-			(at 115.57 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 115.57 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
-			(at 118.11 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low drop-out regulator, Fixed Output 1.5V, SOT-223"
-			(at 115.57 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "26580e25-69dc-4882-9c4f-8abf49a3fccc")
-		)
-		(pin "1"
-			(uuid "16589a19-916c-4c5d-975d-1b96b0302561")
-		)
-		(pin "2"
-			(uuid "73f163b9-087d-4844-a38b-a5f1cee5e093")
-		)
-		(instances
-			(project ""
-				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SCOTOKEEBS:Placeholder_Diode")
 		(at 97.79 176.53 90)
 		(unit 1)
@@ -32981,73 +32915,6 @@
 			(project "Modulus"
 				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
 					(reference "D86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Resistors:Resistor")
-		(at 488.95 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f56015ec-a6fb-466d-ac86-5ba7cc677359")
-		(property "Reference" "R10"
-			(at 492.252 165.1 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 490.982 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 493.268 164.211 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 488.95 164.592 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/4W Resistor"
-			(at 488.95 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d1525318-e6b7-4d6a-a305-951a17e65b30")
-		)
-		(pin "1"
-			(uuid "8c12e8ac-adff-49fc-a9b2-1da95dded0e9")
-		)
-		(instances
-			(project "Modulus"
-				(path "/b7b015a6-2592-43f0-be2e-0d1cbff8986d"
-					(reference "R10")
 					(unit 1)
 				)
 			)
