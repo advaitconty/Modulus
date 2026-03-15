@@ -18464,7 +18464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Green_LED:0603"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 327.66 168.91 0)
 			(effects
 				(font
