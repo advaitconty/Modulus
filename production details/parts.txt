@@ -1,0 +1,13 @@
+I/O
+Type C Receptable - https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948
+2x XLR - NC3FAAH - https://jlcpcb.com/partdetail/HOOYA-XLR_328P1/C309328
+2x USB - https://jlcpcb.com/partdetail/7254738-USB1046_GF_0190_L_BA/C6307429
+
+Chips
+GL850G-HHY20 - https://jlcpcb.com/partdetail/GenesysLogic-GL850GHHY22/C136617
+RP2040 - https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040
+Crystal - https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322512MSB4SI/C9002
+
+Resistors
+220ohm (0805) - https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557
+
