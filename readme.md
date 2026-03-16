@@ -11,6 +11,9 @@ Just use it like a keyboard! However, any SPI accessories should be connected wh
 The USB ports are USB 2.0 only, so it's better to be used for stuff like USB sound cards and mice.
 I don't actually know how much lag will the ports create, because they're bottom mounted, in direct contact with foam, and is air cooled. So it may overheat (tried to add thermal dissiptation vias but effectiveness not tested)
 
+Quirks:
+- Case has holes at the bottom for cooling (yes I'm serious)
+
 ## Images
 
 - model + board
