@@ -17,3 +17,7 @@ I don't actually know how much lag will the ports create, because they're bottom
 
 - board only
 ![](https://s6.imgcdn.dev/YvRTId.png)
+[![](https://s6.imgcdn.dev/YvtLNg.png)](https://imgcdn.dev/i/YvtLNg)
+[![](https://s6.imgcdn.dev/YvtbGv.png)](https://imgcdn.dev/i/YvtbGv)
+[![](https://s6.imgcdn.dev/YvteeN.png)](https://imgcdn.dev/i/YvteeN)
+[![](https://s6.imgcdn.dev/YvtqMq.png)](https://imgcdn.dev/i/YvtqMq)
