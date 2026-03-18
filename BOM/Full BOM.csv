@@ -1,0 +1,16 @@
+Model,Item,Purpose,Vendor,Link,Qty,Unit Price,Total Price,Remarks
+Neutrik NC3FAAH,XLR Connector (Female),SPI over XLR connections on keyboard,LCSC,https://www.lcsc.com/product-detail/C368521.html,2,$1.59,$3.17,
+Neutrik NC3MAH,XLR Connector (Male),SPI over XLR connections on macropad,LCSC,https://www.lcsc.com/product-detail/C5154126.html,2,$1.98,$3.96,
+BZCN TSD001A05518A,Button 6mmX6mm,Reset button,LCSC,https://www.lcsc.com/product-detail/C2889004.html,50,$0.01,$0.53,Purchase 50 due to minimum purchase quantity
+UGREEN 60121,USB-A to USB-C Cable (1m),Keyboard connection,LCSC,https://www.lcsc.com/product-detail/C5189133.html,1,$2.54,$2.54,
+Global Direct Standard Line,Shipping,Shipping,LCSC,-,1,$5.41,$5.41,
+Modulus,Macropad,PCB,JLCPCB,-,5,-,$11.00,
+Modulus,Macropad PCBA,Assembly,JLCPCB,-,2,-,$16.39,Refer to BOM for macropad (in same folder) for parts used
+Modulus,Keyboard,PCB,JLCPCB,-,5,-,$25.70,
+Modulus,Keyboard PCBA,Assembly,JLCPCB,-,2,-,$55.43,Refer to BOM for keyboard (in same folder) for parts used
+UPS Worldwide Express Saver,Shipping,PCB shipping,JLCPCB,-,1,$18.67,$18.67,
+KBDiy 147/Keys Modern-Dolch Keycaps,Keycaps for Keyboard,Keycaps,AliExpress,,1,S$23.10,S$23.10,
+Samzhe XLR Cable,XLR Cables,For connecting macropad and keyboard,AliExpress,,2,S$7.09,S$14.18,
+Outemu Silent Lemon V3s 110 switch pack,Keyswitch,Very nice keyswitch ,AliExpress,,1,S$29.17,S$29.17,
+128x32 OLED,Screen,Indicator on Keyboard,AliExpress,,1,S$3.47,S$3.47,I burnt the last one i soldered so i shall be smart and get one pre soldered-
+,,,,,,TOTAL:,$197.40,(usd)

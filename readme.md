@@ -24,3 +24,7 @@ Quirks:
 [![](https://s6.imgcdn.dev/YvtbGv.png)](https://imgcdn.dev/i/YvtbGv)
 [![](https://s6.imgcdn.dev/YvteeN.png)](https://imgcdn.dev/i/YvteeN)
 [![](https://s6.imgcdn.dev/YvtqMq.png)](https://imgcdn.dev/i/YvtqMq)
+[![Yv8obV.png](https://s6.imgcdn.dev/Yv8obV.png)](https://imgcdn.dev/i/Yv8obV)
+[![Yv8JGh.png](https://s6.imgcdn.dev/Yv8JGh.png)](https://imgcdn.dev/i/Yv8JGh)
+[![YvJDMK.png](https://s6.imgcdn.dev/YvJDMK.png)](https://imgcdn.dev/i/YvJDMK)
+[![YvJYlo.png](https://s6.imgcdn.dev/YvJYlo.png)](https://imgcdn.dev/i/YvJYlo)
