@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NC3MAH")(type "KiCad")(uri "${KIPRJMOD}/Other Footprints/NC3MAH/NC3MAH.kicad_sym")(options "")(descr ""))
+)
