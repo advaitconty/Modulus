@@ -1,16 +1,36 @@
-Model,Item,Purpose,Vendor,Link,Qty,Unit Price,Total Price,Remarks
-Neutrik NC3FAAH,XLR Connector (Female),SPI over XLR connections on keyboard,LCSC,https://www.lcsc.com/product-detail/C368521.html,2,$1.59,$3.17,
-Neutrik NC3MAH,XLR Connector (Male),SPI over XLR connections on macropad,LCSC,https://www.lcsc.com/product-detail/C5154126.html,2,$1.98,$3.96,
-BZCN TSD001A05518A,Button 6mmX6mm,Reset button,LCSC,https://www.lcsc.com/product-detail/C2889004.html,50,$0.01,$0.53,Purchase 50 due to minimum purchase quantity
-UGREEN 60121,USB-A to USB-C Cable (1m),Keyboard connection,LCSC,https://www.lcsc.com/product-detail/C5189133.html,1,$2.54,$2.54,
-Global Direct Standard Line,Shipping,Shipping,LCSC,-,1,$5.41,$5.41,
-Modulus,Macropad,PCB,JLCPCB,-,5,-,$11.00,
-Modulus,Macropad PCBA,Assembly,JLCPCB,-,2,-,$16.39,Refer to BOM for macropad (in same folder) for parts used
-Modulus,Keyboard,PCB,JLCPCB,-,5,-,$25.70,
-Modulus,Keyboard PCBA,Assembly,JLCPCB,-,2,-,$55.43,Refer to BOM for keyboard (in same folder) for parts used
-UPS Worldwide Express Saver,Shipping,PCB shipping,JLCPCB,-,1,$18.67,$18.67,
-KBDiy 147/Keys Modern-Dolch Keycaps,Keycaps for Keyboard,Keycaps,AliExpress,,1,S$23.10,S$23.10,
-Samzhe XLR Cable,XLR Cables,For connecting macropad and keyboard,AliExpress,,2,S$7.09,S$14.18,
-Outemu Silent Lemon V3s 110 switch pack,Keyswitch,Very nice keyswitch ,AliExpress,,1,S$29.17,S$29.17,
-128x32 OLED,Screen,Indicator on Keyboard,AliExpress,,1,S$3.47,S$3.47,I burnt the last one i soldered so i shall be smart and get one pre soldered-
-,,,,,,TOTAL:,$197.40,(usd)
+﻿Model,Item,Purpose,Vendor,Link,Qty,Unit Price,Total Price,Remarks
+Neutrik NC3FAAH,XLR Connector (Female),SPI over XLR connections on keyboard,LCSC,https://www.lcsc.com/product-detail/C368521.html,2, $1.59 , $3.18 ,
+Neutrik NC3MAH,XLR Connector (Male),SPI over XLR connections on macropad,LCSC,https://www.lcsc.com/product-detail/C5154126.html,2, $1.98 , $3.96 ,
+BZCN TSD001A05518A,Button 6mmX6mm,Reset button,LCSC,https://www.lcsc.com/product-detail/C2889004.html,50, $0.01 , $0.50 ,Purchase 50 due to minimum purchase quantity
+UGREEN 60121,USB-A to USB-C Cable (1m),Keyboard connection,LCSC,https://www.lcsc.com/product-detail/C5189133.html,1, $2.54 , $2.54 ,
+Han Electricity CPG151101S11-16,Hotswap Keyswitch,For keyboard,LCSC,https://www.lcsc.com/product-detail/C41430893.html,120, $0.03 , $4.12 ,
+Global Direct Standard Line,Shipping,Shipping,LCSC,-,1, $5.50 , $5.50 ,
+Keyboard,PCB,PCB,JLC,-,5, $28.00 , $28.00 ,
+Keyboard,PCB Assembly,Setup Fee,JLC,-,1, $8.12 , $8.12 ,
+Keyboard,PCB Assembly,Stencil,JLC,-,1, $1.52 , $1.52 ,
+Keyboard,PCB Assembly,Components,JLC,-,1, $14.94 , $14.94 ,
+Keyboard,PCB Assembly,Extended Components Fee,JLC,-,1, $18.24 , $18.24 ,
+Keyboard,PCB Assembly,SMT Assembly,JLC,-,1, $1.39 , $1.39 ,
+Keyboard,PCB Assembly,Nitrogen Reflow Soldering,JLC,-,1, $0.85 , $0.85 ,
+Macropad,PCB,PCB,JLC,-,5, $11.00 , $11.00 ,
+Macropad,PCB Assembly,Setup Fee,JLC,-,1, $8.12 , $8.12 ,
+Macropad,PCB Assembly,Stencil,JLC,-,1, $1.52 , $1.52 ,
+Macropad,PCB Assembly,Components,JLC,-,1, $0.55 , $0.55 ,
+Macropad,PCB Assembly,SMT Assembly,JLC,-,1, $0.16 , $0.16 ,
+Macropad,PCB Assembly,Nitrogen Reflow Soldering,JLC,-,1, $0.85 , $0.85 ,
+Shipping,Macropad + Keyboard Shipping,UPS Worldwide Saver,JLC,-,1, $19.71 , $19.71 ,
+KBDiy 147/Keys Modern-Dolch Keycaps,Keycaps for Keyboard,Keycaps,AliExpress,https://www.aliexpress.com/item/1005010169995953.html?spm=a2g0o.cart.0.0.725938da12kScX&mp=1&pdp_npi=6%40dis%21SGD%21SGD%2060.22%21SGD%2027.10%21%21SGD%2027.10%21%21%21%40212e509017747128219972413efe34%2112000051507739470%21ct%21SG%216170289340%21%211%210%21,1, $19.70 , $19.70 ,
+Samzhe XLR Cable,XLR Cables,For connecting macropad and keyboard,AliExpress,https://www.aliexpress.com/item/1005005725048225.html?spm=a2g0o.cart.0.0.725938da12kScX&mp=1&pdp_npi=6%40dis%21SGD%21SGD%208.29%21SGD%208.29%21%21SGD%208.29%21%21%21%40212e509017747128219972413efe34%2112000040016579125%21ct%21SG%216170289340%21%212%210%21,2, $6.43 , $12.86 ,
+Outemu Silent Lemon V3s 110 switch pack,Keyswitch,Very nice keyswitch ,AliExpress,https://www.aliexpress.com/item/1005005609580877.html?spm=a2g0o.cart.0.0.725938da12kScX&mp=1&pdp_npi=6%40dis%21SGD%21SGD%2025.38%21SGD%2025.38%21%21SGD%2025.38%21%21%21%40212e509017747128219972413efe34%2112000033742002749%21ct%21SG%216170289340%21%211%210%21,1, $21.03 , $21.03 ,
+128x32 OLED,Screen,Indicator on Keyboard,AliExpress,https://www.aliexpress.com/item/1005005301005280.html?spm=a2g0o.cart.0.0.725938da12kScX&mp=1&pdp_npi=6%40dis%21SGD%21SGD%203.58%21SGD%203.58%21%21SGD%203.58%21%21%21%40212e509017747128219972413efe34%2112000032548039888%21ct%21SG%216170289340%21%211%210%21,1, $2.79 , $2.79 ,I burnt the last one i soldered so i shall be smart and get one pre soldered-
+Soldering Iron Tip,Chisel ,For my tipless pinecil,AliExpress,https://www.aliexpress.com/item/1005006125240838.html?spm=a2g0o.productlist.main.6.66bd2496Dp8rGm&algo_pvid=a654366c-40ab-4734-ab6a-a123226552cc&algo_exp_id=a654366c-40ab-4734-ab6a-a123226552cc-5&pdp_ext_f=%7B%22order%22%3A%221770%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21SGD%216.41%216.41%21%21%2133.51%2133.51%21%40214100f417747125708503073ecd6e%2112000035866671619%21sea%21SG%216170289340%21X%211%210%21n_tag%3A-29919%3Bd%3A1631bfd3%3Bm03_new_user%3A-29895&curPageLogUid=HrnIASZUeSxM&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005006125240838%7C_p_origin_prod%3A,1, $5.03 , $5.03 ,I was told this was allowed (https://hackclub.slack.com/archives/C09CMJV6V6K/p1774712666820039?thread_ts=1774710807.451839&cid=C09CMJV6V6K)
+,,,,,,Total: , $196.18 ,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
